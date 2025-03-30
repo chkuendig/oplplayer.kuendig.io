@@ -1,0 +1,3 @@
+[submodule "RetroWave"]
+	path = RetroWave
+	url = git@github.com:chkuendig/RetroWave.git

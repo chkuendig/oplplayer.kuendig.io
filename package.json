@@ -1,0 +1,16 @@
+{
+    "name": "opl-player-web",
+    "scripts": {
+        "build:retrowave": "scripts/build_retrowave.sh",
+        "build:music": "scripts/build_music.sh",
+        "build:app": "scripts/build_app.sh",
+        "run": "scripts/run.sh",
+        "build": "npm run build:music && npm run build:retrowave && npm run build:app"
+    },
+    "author": "Christian Kündig <christian@kuendig.info> (http://christian.kuendig.info)",
+    "devDependencies": {
+        "@xterm/xterm": "^5.5.0",
+        "esbuild": "^0.25.2",
+        "xterm-pty": "^0.11.1"
+    }
+}

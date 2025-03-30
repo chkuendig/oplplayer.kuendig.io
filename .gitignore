@@ -1,0 +1,5 @@
+build/
+emsdk-*/
+emsdk-*.tar.gz
+music/
+node_modules/
